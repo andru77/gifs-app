@@ -34,7 +34,7 @@ export interface Gifs {
    is_sticker?: number;
    import_datetime?: string;
    trending_datetime?: string;
-   images?: Images;
+   images: Images;
    user?: User;
    analytics_response_payload?: string;
    analytics?: Analytics;
@@ -45,7 +45,7 @@ export interface Images {
    original?: Original;
    downsized?: Downsized;
    downsized_large?: DownsizedLarge;
-   downsized_medium?: DownsizedMedium;
+   downsized_medium: DownsizedMedium;
    downsized_small?: DownsizedSmall;
    downsized_still?: DownsizedStill;
    fixed_height?: FixedHeight;
@@ -97,7 +97,7 @@ export interface DownsizedMedium {
    height?: string;
    width?: string;
    size?: string;
-   url?: string;
+   url: string;
 }
 
 export interface DownsizedSmall {
